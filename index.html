@@ -1,0 +1,32 @@
+<html>
+
+<head></head>
+
+<body>
+    <h1>Hello from HTML</h1>
+
+    <!--Form gets first name and surname and displays them on webpage-->
+    <form action="/name" target="_blank" method="GET">
+        First Name: <br>
+        <input type="text" name="firstname" value="Eimar"><br>
+        Last Name: <br>
+        <input type="text" name="lastname" value="Quinn">
+        <br>
+        <br>
+        <input type="submit" value="Add Name">
+    </form>
+    <h3>Send data with POST method</h3>
+    
+    <!--Form to do a post request-->
+    <form action="/name" target="_blank" method="POST">
+        First Name: <br>
+        <input type="text" name="firstname" value="Eimar"><br>
+        Last Name: <br>
+        <input type="text" name="lastname" value="Quinn">
+        <br>
+        <br>
+        <input type="submit" value="Add Name">
+    </form>
+</body>
+
+</html>
